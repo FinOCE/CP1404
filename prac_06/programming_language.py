@@ -12,5 +12,4 @@ class ProgrammingLanguage:
             return False
     
     def __str__(self):
-        # return f"{self.language}, {self.typing} Typing, Reflection={self.is_dynamic()}, First appeared in {self.year}"
-        return self.language
+        return f"{self.language}, {self.typing} Typing, Reflection={self.is_dynamic()}, First appeared in {self.year}"
