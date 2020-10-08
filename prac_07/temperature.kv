@@ -1,0 +1,19 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input
+            text: ''
+        BoxLayout:
+            size_hint_x: 0.4
+            orientation: 'vertical'
+            Button:
+                text: 'F -> C'
+                on_press: app.convert_f_to_c(input.text)
+            Button:
+                text: 'C -> F'
+                on_press: app.convert_c_to_f(input.text)
+    Label:
+        id: output
+        text: ''
