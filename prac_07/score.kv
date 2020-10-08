@@ -1,0 +1,21 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        Button: 
+            text: 'Clear'
+            on_press: app.clear_fields()
+            size_hint_x: 0.2
+        TextInput:
+            id: input_name
+            text: ''
+    BoxLayout:
+        orientation: 'horizontal'
+        Button: 
+            text: 'Calculate'
+            on_press: app.handle_calculation(input_name.text)
+            size_hint_x: 0.2
+        Label:
+            id: output_label
+            text: 'Enter your score'
+            color: (1, 1, 0, 1)
