@@ -1,0 +1,9 @@
+Rabbit,5.1
+Wolf,10.4*
+Rabbit,20.3
+Rabbit,6.7
+Wolf,1.0*
+Wolf,3.5
+Rabbit,0.5*
+Snake,3.2
+Snake,40*

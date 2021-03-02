@@ -1,0 +1,35 @@
+# 2. Explain the list change
+The list "names" is not changed when appending a value to "beatles", because "beatles" was defined to be the same as the "names" list, and is not just an alias for the "names" list.
+
+# 4. Give the commit message
+Create function to calculate the area of a circle with a given radius
+
+# 7. Give the data type
+a. Dictionary
+   It needs to have the key/value correlation between name and number, and since its plural it needs to be in a dictionary. It could be a list of tuples, but sometimes people change name/phone number so its best to keep writable
+b. Integar
+   Age is normally defined as a whole number
+c. Tuple
+   To prevent the values from changing they can be put into a tuple
+d. Float
+   Money contains cents, meaning decimal places may be needed
+e. Boolean
+   Storing whether a day is a public holidy or not can be classified as a True/False question
+
+# 10. Describe the relationship
+a. Book is a child of Library
+b. Fixed Account is a child of Bank Account
+c. Travel is a child of Pen
+d. Jim is a child of Person
+
+# 15. Give the name
+a. bicycle.py
+b. Bicycle
+c. change_gear
+d. brake
+e. is_breaking
+f. get_gear_level
+
+# 20. Explain both statements
+a. .readline() returns the current line the file is referencing (in this case the first line) and includes string formatting like tabs and newlines instead of backslash formatting (e.g. /n, /t).
+b. .readlines() returns a list with all lines left to read from the file (in this case all lines), and has the string formatting written out in backslash format.

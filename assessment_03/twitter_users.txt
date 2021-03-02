@@ -1,0 +1,5 @@
+This file contains screennames, creation dates and number of followers
+Steven,Oct:08:2009,450
+Cherry,Mar:22:2018,25
+Buddha,Jan:1:2010,2648
+RealCarl,May:22:2011,1611
